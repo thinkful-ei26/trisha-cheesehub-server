@@ -42,7 +42,7 @@ const cheeses = [
   'Yorkshire Blue'
 ];
 
-app.get( '/api/cheeses', (req, res, next) => {
+app.get( '/api/cheeses', (req, res) => {
   res.status(200).json(cheeses);
 });
 
